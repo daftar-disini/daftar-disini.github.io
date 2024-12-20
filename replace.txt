@@ -1,0 +1,2 @@
+grep -rl "daftar-disini" . | xargs sed -i "s/daftar-disini/new-name/g"
+grep -rl "Daftar Disini" . | xargs sed -i "s/Daftar Disini/New Name/g"
